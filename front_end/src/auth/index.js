@@ -1,6 +1,6 @@
 import React from "react";
 import server from "../server/server";
-import { useHistory } from "react-router-dom";
+import { useHistory, Link } from "react-router-dom";
 import { Container, Content, Title } from "./styles";
 import { useDispatch } from "react-redux";
 import { fetchError, fetchStarted, fetchSuccess } from "../store/login";
@@ -37,30 +37,31 @@ function Auth() {
       <Content>
         <Title>Login</Title>
         <input
-          type="text"
           onChange={(e) => setLogin({ ...login, name: e.target.value })}
-          value={login.name}
           style={{ width: "100%" }}
+          type="text"
+          value={login.name}
         ></input>
         <Title>Password</Title>
         <input
-          type="password"
           onChange={(e) => setLogin({ ...login, password: e.target.value })}
-          value={login.password}
+          type="password"
           style={{ width: "100%" }}
+          value={login.password}
         ></input>
         {error}
         <button
           onClick={handleLogin}
           style={{
             background: "#0066ff",
-            fontSize: "1.8rem",
-            marginTop: "10px",
             borderRadius: "10px",
+            fontSize: "1.8rem",
+            listStyle: "none",
+            marginTop: "10px",
             width: "30%",
           }}
         >
-          Enter
+          <Link to="/view">Enter</Link>
         </button>
       </Content>
     </Container>
