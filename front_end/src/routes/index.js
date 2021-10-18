@@ -21,7 +21,7 @@ const Routes = () => {
     <BrowserRouter basename="/React-login-and-crud">
       <Switch>
         <Route exact path="/" render={() => <Auth />} />
-        <PrivateRoute exact path="/view" component={() => <View />} />
+        <Route exact path="/view" render={() => <View />} />
       </Switch>
     </BrowserRouter>
   );
