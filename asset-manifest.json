@@ -1,20 +1,20 @@
 {
   "files": {
     "main.css": "/React-login-and-crud/static/css/main.2ae47eeb.chunk.css",
-    "main.js": "/React-login-and-crud/static/js/main.2b15fe3f.chunk.js",
-    "main.js.map": "/React-login-and-crud/static/js/main.2b15fe3f.chunk.js.map",
+    "main.js": "/React-login-and-crud/static/js/main.cea40cbf.chunk.js",
+    "main.js.map": "/React-login-and-crud/static/js/main.cea40cbf.chunk.js.map",
     "runtime-main.js": "/React-login-and-crud/static/js/runtime-main.aed46579.js",
     "runtime-main.js.map": "/React-login-and-crud/static/js/runtime-main.aed46579.js.map",
-    "static/js/2.07a0dd0b.chunk.js": "/React-login-and-crud/static/js/2.07a0dd0b.chunk.js",
-    "static/js/2.07a0dd0b.chunk.js.map": "/React-login-and-crud/static/js/2.07a0dd0b.chunk.js.map",
+    "static/js/2.39115e88.chunk.js": "/React-login-and-crud/static/js/2.39115e88.chunk.js",
+    "static/js/2.39115e88.chunk.js.map": "/React-login-and-crud/static/js/2.39115e88.chunk.js.map",
     "index.html": "/React-login-and-crud/index.html",
     "static/css/main.2ae47eeb.chunk.css.map": "/React-login-and-crud/static/css/main.2ae47eeb.chunk.css.map",
-    "static/js/2.07a0dd0b.chunk.js.LICENSE.txt": "/React-login-and-crud/static/js/2.07a0dd0b.chunk.js.LICENSE.txt"
+    "static/js/2.39115e88.chunk.js.LICENSE.txt": "/React-login-and-crud/static/js/2.39115e88.chunk.js.LICENSE.txt"
   },
   "entrypoints": [
     "static/js/runtime-main.aed46579.js",
-    "static/js/2.07a0dd0b.chunk.js",
+    "static/js/2.39115e88.chunk.js",
     "static/css/main.2ae47eeb.chunk.css",
-    "static/js/main.2b15fe3f.chunk.js"
+    "static/js/main.cea40cbf.chunk.js"
   ]
 }
